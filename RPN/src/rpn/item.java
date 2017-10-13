@@ -32,6 +32,6 @@ public class item {
     }
     
     public int getNum(){
-        return numero
+        return numero;
     }
 }
