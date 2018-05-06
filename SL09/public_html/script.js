@@ -13,8 +13,8 @@ function check() {
 	let telefono = document.forms[0].elements[5].value;
 	
 	if( cognome==="" || nome==="" || isNaN(+matricola) || (email==="" && telefono==="") || regione===""){
-		alert("Ou compila sto modulo!");
+		alert("Modulo non compilato correttamente");
 	} else{
-		alert("Bea more");
+		alert("Modulo compilato correttamente");
 	}
 }
